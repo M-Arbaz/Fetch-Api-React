@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 500ms;
+}
+h1{
+  text-align: center;
+  margin: 10px;
+}
+table , td,th{
+  border: 1px solid;
+  border-collapse: collapse;
+  padding: 10px;
+  color: rgba(27, 11, 11, 0.699);
+}
+td:hover{
+  background-color: rgba(128, 207, 253, 0.404);
+ color: black;
+}
+th:hover{
+  background-color: rgba(224, 124, 255, 0.712);
+}
